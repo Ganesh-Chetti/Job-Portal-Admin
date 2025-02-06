@@ -6,7 +6,7 @@ import { CssBaseline } from '@mui/material';
 import Navbar from './Components/Navbar';
 import AdminLogin from './Components/Login';
 import AdminRegister from './Components/SignupAdmin';
-import AdminProfile from './Components/Adminprofile.jsx';
+import AdminProfile from './Components/Profile';
 import LandingPage from './Components/HomePage';
 import AllUsers from './Components/UsersData';
 import AllCompanies from './Components/CompaniesData';
