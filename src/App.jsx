@@ -6,7 +6,7 @@ import { CssBaseline } from '@mui/material';
 import Navbar from './Components/Navbar';
 import AdminLogin from './Components/Login';
 import AdminRegister from './Components/SignupAdmin';
-import UserProfile from './Components/Adminprofile';
+import AdminProfile from './Components/Adminprofile';
 import LandingPage from './Components/HomePage';
 import AllUsers from './Components/UsersData';
 import AllCompanies from './Components/CompaniesData';
@@ -28,7 +28,7 @@ const App = () => {
                 <Route path="/admin/register" element={<AdminRegister />} />
 
                 {/* Admin Features */}
-                <Route path="/admin/profile" element={<UserProfile />} />
+                <Route path="/admin/profile" element={<AdminProfile />} />
                 <Route path="/admin/users" element={<AllUsers />} />
                 <Route path="/admin/companies" element={<AllCompanies />} />
                 <Route path="/admin/jobs" element={<AllJobs />} />

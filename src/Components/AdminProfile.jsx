@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Box, Typography, Paper, CircularProgress } from '@mui/material';
 import axios from 'axios';
 
-const UserProfile = () => {
+const AdminProfile = () => {
     const [profile, setProfile] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -80,4 +80,4 @@ const UserProfile = () => {
     );
 };
 
-export default UserProfile;
+export default AdminProfile;
